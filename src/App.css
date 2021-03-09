@@ -1,0 +1,22 @@
+html {
+  scroll-snap-stop: y mandatory;
+}
+
+.app {
+  background-color: black;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.app__vedios {
+  position: relative;
+  height: 760px;
+  overflow: scroll;
+  width: 80%;
+  max-width: 500px;
+  scroll-snap-type: y mandatory;
+}
+.app__vedios::-webkit-scrollbar {
+  display: none;
+}

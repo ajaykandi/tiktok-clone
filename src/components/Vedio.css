@@ -1,0 +1,13 @@
+.vedio {
+  position: relative;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  scroll-snap-align: start;
+}
+.vedio__player {
+  background-color: black;
+  height: 100%;
+  object-fit: fill;
+  width: 100%;
+}
